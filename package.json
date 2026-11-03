@@ -1,0 +1,15 @@
+{
+  "name": "university-lost-and-found",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CampusFind MUST lost and found \u2014 HTML/Tailwind/JavaScript and Flask/SQLite",
+  "scripts": {
+    "start": "python app.py",
+    "test": "python -m unittest discover -s tests -v",
+    "css:build": "tailwindcss -c tailwind.config.js -i src/input.css -o static/css/tailwind.css --minify",
+    "css:watch": "tailwindcss -c tailwind.config.js -i src/input.css -o static/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}

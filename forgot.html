@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0b8662"><link rel="icon" href="/static/favicon.svg"><link rel="stylesheet" href="/static/css/tailwind.css"><link rel="stylesheet" href="/static/css/custom.css"><title>Password recovery — CampusFind</title></head><body><header class="border-b border-ink-900/10 bg-white"><div class="container-page flex h-[74px] items-center justify-between"><a href="/index.html" class="font-display text-xl font-extrabold text-brand-700">CampusFind</a><a href="/login.html" class="btn-outline btn-sm">Log in</a></div></header><main class="container-page py-12"><section class="card mx-auto max-w-lg p-6 sm:p-8">
+<h1 class="font-display text-3xl font-extrabold">Forgot your password?</h1>
+<p class="mt-3 text-sm leading-relaxed text-ink-500">Enter the MUST student email or Gmail address you registered with. We will send a verification code if an account exists.</p>
+<form id="forgotForm" class="mt-6 space-y-4">
+<label class="label">Email address<input id="email" type="email" autocomplete="email" required class="field mt-1.5" placeholder="2025bse063@std.must.ac.ug"></label>
+<p id="forgotError" class="hidden rounded-xl bg-coral-50 p-4 text-sm text-coral-700" role="alert"></p>
+<button type="submit" class="btn-primary w-full">Send recovery code</button>
+</form>
+</section></main><script src="/static/js/common.js"></script><script src="/static/js/auth.js"></script></body></html>
